@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="ttt.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+
+<div class="l-wrap">
+  <div class="twelve-col-grid">
+    <div class="grid-item-1">
+        <div id="wholeboard" class="wholeboard">
+          <div id="box-1" class="grid-unit"></div>
+          <div id="box-2" class="grid-unit"></div>
+          <div id="box-3" class="grid-unit"></div>
+          <div id="box-4" class="grid-unit"></div>
+          <div id="box-5" class="grid-unit"></div>
+          <div id="box-6" class="grid-unit"></div>
+          <div id="box-7" class="grid-unit"></div>
+          <div id="box-8" class="grid-unit"></div>
+          <div id="box-9" class="grid-unit"></div>
+        </div>
+    </div>
+    <div class="grid-item-2">
+      <div class="info-plus-reset">
+        <button class="reset" id="reset">Reset</button>
+        <div class="info" id="info">
+          <p id="x-score">X: <span id="x-span">0</span></p>
+          <p id="y-score">O: <span id="y-span">0</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="ttt.js"></script>
+</body>
+</html>
